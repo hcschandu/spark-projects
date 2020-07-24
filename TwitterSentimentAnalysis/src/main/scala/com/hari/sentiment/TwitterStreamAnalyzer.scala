@@ -19,10 +19,10 @@ object TwitterStreamAnalyzer {
   def main(args: Array[String]): Unit = {
 
     // Inserting twitter key details generated from twitter developer application
-    val consumerKey = "FeApSpsJLj1PBF90jH2mIGiiU"
-    val consumerSecret = "lCk1uqMggrC8Q0KIgHPCo54TzYktc74mN5b8xlvBWmeyo3uZ5T"
-    val accessToken = "1095546636-SzEVmgcC3E6y5LNRCDKnnv1OqfwDkEBj31Epoxm"
-    val accessTokenSecret = "MjYBjSLqqkrAbnSWqxJuXMI2YPI3F1hHYgrSWiG1xSEwZ"
+    val consumerKey = "*****CONSUMER KEY*****"
+    val consumerSecret = "*****CONSUMER SECRET*****"
+    val accessToken = "*****ACCESS TOKEN*****"
+    val accessTokenSecret = "*****ACCESS TOKEN SECRET*****"
 
     // Set System properties - twitter authentication details
     System.setProperty("twitter4j.oauth.consumerKey", consumerKey)
